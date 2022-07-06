@@ -6,38 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="../css/calculator.css" />
+    <script src="../js/calculator.js"> </script>
 </head>
 
 <div class="scaffold" >
     <div class="prt"> 
-        <input  id="" value="0" readonly="readonly" >
+        <input  id="result" placeholder="0" readonly="readonly" >
     </div>
     <div class="prt">
-        <input type="button" value="delete" class="btn-delete">
-        <input type="button" value="%" class="btn">
+        <input type="button" value="delete" class="btn-delete"onclick=getButtonText(value)>
+        <input type="button" value="%" class="btn"onclick=getButtonText(value)>
     </div>
     <div class="prt">
-        <input type="button" value="7" class="btn ">
-        <input type="button" value="8" class="btn ">
-        <input type="button" value="9" class="btn ">
-        <input type="button" value="X" class="btn ">
+        <input type="button" value="7" class="btn" onclick=getButtonText(value)>
+        <input type="button" value="8" class="btn "onclick=getButtonText(value)>
+        <input type="button" value="9" class="btn "onclick=getButtonText(value)>
+        <input type="button" value="*" class="btn "onclick=getButtonText(value)>
     </div>
     <div class="prt">
-        <input type="button" value="4" class="btn ">
-        <input type="button" value="5" class="btn ">
-        <input type="button" value="6" class="btn ">
-        <input type="button" value="-" class="btn ">
+        <input type="button" value="4" class="btn "onclick=getButtonText(value)>
+        <input type="button" value="5" class="btn "onclick=getButtonText(value)>
+        <input type="button" value="6" class="btn "onclick=getButtonText(value)>
+        <input type="button" value="-" class="btn "onclick=getButtonText(value)>
     </div>
     <div class="prt">
-        <input type="button" value="1" class="btn">
-        <input type="button" value="2" class="btn">
-        <input type="button" value="3" class="btn">
-        <input type="button" value="+" class="btn">
+        <input type="button" value="1" class="btn"onclick=getButtonText(value)>
+        <input type="button" value="2" class="btn"onclick=getButtonText(value)>
+        <input type="button" value="3" class="btn"onclick=getButtonText(value)>
+        <input type="button" value="+" class="btn"onclick=getButtonText(value)>
     </div>
     <div class="prt">
-        <input type="button" value="0" class="btn btn-zro">
-        <input type="button" value="," class="btn">
-        <input type="button" value="Result" class="btn">
+        <input type="button" value="0" class="btn btn-zro"onclick=getButtonText(value)>
+        <input type="button" value="," class="btn"onclick=getButtonText(value)>
+        <input id="" type="button" value="Result" class="btn"onclick=getResult()>
     </div>
 </div>
 

@@ -1,5 +1,5 @@
 .scaffold{
-    background-color: red;
+    background-color: grey;
     width: fit-content;
     height: fit-content;
     border-style:solid ;
@@ -18,11 +18,13 @@ input {
 }
 .btn-delete{
     width: 74%;
+    border-radius: 5px;
     
 }
 .btn{
     width: 23%;
     height:23%;
+    border-radius: 5px;
 }
 .btn-zro{
     width: 48%;
